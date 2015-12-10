@@ -1,0 +1,17 @@
+Jmysconnection
+Copyright 2015 The TEENET Organization
+Produce by TEENET technology (teenet.me)
+
+Jmysconnection是一个用于JAVA连接MYSQL的接口
+此接口需要依赖于mysql-connector-java-5.1.6-bin.jar包。
+
+如何使用：
+复制”jmysconnection“文件夹到你的工程，然后在所需要使用此接口的java类中导入”import jmysconnection.Mysql“
+复制mysql-connector-java-5.1.6-bin.jar到你的工程
+修改此接口的配置文件（Configuration.java）且确保连接参数正确
+然后你就可以开始用了 
+
+此接口仅支持”int“、”String“、”Timestamp“数据类型
+此接口并没有设置防范SQL注入
+
+接口注释中已包含中文注释

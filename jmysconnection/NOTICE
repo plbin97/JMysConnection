@@ -1,0 +1,17 @@
+Jmysconnection
+Copyright 2015 The TEENET Organization
+Produce by TEENET technology (teenet.me)
+
+Jmysconnection is an Java API for connecting Mysql databases. 
+This API rely on mysql-connector-java-5.1.6-bin.jar. (Shown in folder)
+
+How To Use: 
+Move "jmysconnection" folder to your project, and import jmysconnection.Mysql to your class. 
+Move mysql-connector-java-5.1.6-bin.jar to your project. 
+Modify the configuration file (Configuration.java) first, and ensure the connection is correct. 
+Then you can start to using it. 
+
+This API only support "int","String","Timestamp" data type. 
+This API has not prepare for SQL injecting protection. 
+
+We have Chinese note in this API. 
